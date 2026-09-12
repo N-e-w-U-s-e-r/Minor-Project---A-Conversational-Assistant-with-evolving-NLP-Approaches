@@ -1,0 +1,33 @@
+# macOS
+.DS_Store
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Python virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Downloaded local models
+backend/nlp-assistant/models/
+
+# Hugging Face local cache
+**/.cache/
+
+# Trained ML models
+backend/nlp-assistant/trained_models/*.joblib
+
+# Frontend dependencies/build
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Environment/secrets
+.env
+.env.*
+!.env.example

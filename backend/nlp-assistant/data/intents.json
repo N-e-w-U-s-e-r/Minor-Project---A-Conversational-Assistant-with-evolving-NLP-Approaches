@@ -1,0 +1,258 @@
+{
+    "intents": [
+        {
+            "name": "greeting",
+            "patterns": [
+                "hello",
+                "hi",
+                "hey",
+                "hello there",
+                "hi there",
+                "hey there",
+                "good morning",
+                "good afternoon",
+                "good evening",
+                "how are you",
+                "how is it going",
+                "nice to meet you"
+            ],
+            "keywords": [
+                "hello",
+                "hi",
+                "hey"
+            ],
+            "responses": [
+                "Hello!",
+                "Hey! How can I help you?"
+            ]
+        },
+        {
+            "name": "goodbye",
+            "patterns": [
+                "goodbye",
+                "bye",
+                "see you",
+                "see you later",
+                "talk to you later",
+                "have a good day",
+                "I have to go",
+                "I am leaving"
+            ],
+            "keywords": [
+                "goodbye",
+                "bye",
+                "see you",
+                "leaving"
+            ],
+            "responses": [
+                "Goodbye!",
+                "See you later!",
+                "Have a great day!"
+            ]
+        },
+        {
+            "name": "thanks",
+            "patterns": [
+                "thank you",
+                "thanks",
+                "thanks a lot",
+                "thank you very much",
+                "many thanks",
+                "I appreciate it",
+                "I really appreciate it",
+                "thanks for your help"
+            ],
+            "keywords": [
+                "thanks",
+                "thank",
+                "appreciate"
+            ],
+            "responses": [
+                "You're welcome!",
+                "Glad I could help!"
+            ]
+        },
+        {
+            "name": "weather",
+            "patterns": [
+                "what is the weather",
+                "what is the weather today",
+                "tell me the weather",
+                "tell me about the weather",
+                "how is the weather",
+                "how is the weather today",
+                "what is the weather like",
+                "weather today",
+                "weather forecast",
+                "will it rain",
+                "is it raining",
+                "is it going to rain",
+                "what is the temperature",
+                "temperature today"
+            ],
+            "keywords": [
+                "weather",
+                "temperature",
+                "rain",
+                "raining",
+                "forecast"
+            ],
+            "responses": [
+                "The weather information would go here.",
+                "I can help with weather information."
+            ]
+        },
+        {
+            "name": "checkrestauranthours",
+            "patterns": [
+                "What are the hours for the restaurant?",
+                "Do you know when the restaurant is open?",
+                "Can you tell me the operating hours of the restaurant?",
+                "What time does the restaurant open and close?",
+                "When is the restaurant available?"
+            ],
+            "keywords": [
+                "restaurant",
+                "hours",
+                "open"
+            ],
+            "responses": [
+                "The restaurant is open from 11:00 AM to 10:00 PM daily.",
+                "They are open every day from 12:00 PM to 9:00 PM."
+            ]
+        },
+        {
+            "name": "booktable",
+            "patterns": [
+                "Can I book a table for two next Friday?",
+                "Reserve a table for 7 PM.",
+                "I'd like to book a table for dinner tonight.",
+                "Is it possible to book a table for Saturday?",
+                "Could you help me book a table at your restaurant?"
+            ],
+            "keywords": [
+                "book",
+                "table",
+                "reserve"
+            ],
+            "responses": [
+                "Certainly! Please provide the date, time, and number of guests for your table reservation.",
+                "Of course! I'll check availability and confirm your booking shortly."
+            ]
+        },
+        {
+            "name": "requesttabletype",
+            "patterns": [
+                "Do you have a table for a group of six?",
+                "Can I get a table near the window?",
+                "What kind of tables are available?",
+                "Is there a table with a view of the garden?",
+                "Can I request a table for two?"
+            ],
+            "keywords": [
+                "table type",
+                "request",
+                "available"
+            ],
+            "responses": [
+                "We have several table types available. Would you like to see the options?",
+                "Sure, we can check the availability of different table types. Please let me know your preference."
+            ]
+        },
+        {
+            "name": "restaurantrecommendation",
+            "patterns": [
+                "Do you have any recommendations for the menu?",
+                "Can you suggest some dishes?",
+                "What are the top dishes here?",
+                "Could you recommend something to try?",
+                "What's on the menu today?"
+            ],
+            "keywords": [
+                "recommend",
+                "menu",
+                "dishes"
+            ],
+            "responses": [
+                "Sure, I can suggest some dishes.",
+                "We have a variety of options available."
+            ]
+        },
+        {
+            "name": "trackorder",
+            "patterns": [
+                "Can you check my order status?",
+                "What's the status of my recent order?",
+                "I want to track my order.",
+                "When will my order be delivered?",
+                "Is my order ready?"
+            ],
+            "keywords": [
+                "track",
+                "order",
+                "status"
+            ],
+            "responses": [
+                "I can check your order status. Could you provide your order number?",
+                "Your order is currently being prepared. It should be ready in 15 minutes."
+            ]
+        },
+        {
+            "name": "requestdietaryaccommodations",
+            "patterns": [
+                "Can you accommodate my dietary restrictions?",
+                "I need to inform you about my food allergies.",
+                "Could you adjust the menu for my dietary needs?",
+                "I have a food allergy, can you help?",
+                "Please let me know if there are dietary accommodations available."
+            ],
+            "keywords": [
+                "dietary",
+                "restrictions",
+                "allergies"
+            ],
+            "responses": [
+                "Of course, could you please share more details about your dietary needs?",
+                "We can accommodate that, please let me know the specifics."
+            ]
+        },
+        {
+            "name": "requestbeveragetype",
+            "patterns": [
+                "Can you recommend a beverage?",
+                "What are the available drinks?",
+                "Do you have any non-alcoholic options?",
+                "What types of beverages do you offer?",
+                "Are there any specific drinks you recommend?"
+            ],
+            "keywords": [
+                "beverage",
+                "drink",
+                "options"
+            ],
+            "responses": [
+                "We offer a variety of beverages including coffee, tea, and soft drinks.",
+                "Our menu includes non-alcoholic options like juice and water."
+            ]
+        },
+        {
+            "name": "requestfoodallergeninfo",
+            "patterns": [
+                "Do you have any allergens in the steak?",
+                "What about the seafood dish?",
+                "Is the pasta safe for someone with a gluten allergy?",
+                "Can you tell me about the allergens in the chicken?",
+                "What ingredients are in the salad?"
+            ],
+            "keywords": [
+                "allergens",
+                "food",
+                "diet"
+            ],
+            "responses": [
+                "The steak is safe for most people, but it's cooked in a pan that's been used for other dishes. Let me know if you need more details.",
+                "The seafood dish is free from common allergens, but we recommend checking with our staff for any specific concerns."
+            ]
+        }
+    ]
+}

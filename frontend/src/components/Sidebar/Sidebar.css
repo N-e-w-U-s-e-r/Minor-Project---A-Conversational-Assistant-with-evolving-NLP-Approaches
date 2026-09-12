@@ -1,0 +1,104 @@
+.sidebar {
+  height: 100vh;
+  background: #171717;
+  color: #ececec;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid #2f2f2f;
+  transition: width 0.2s ease;
+  flex-shrink: 0;
+}
+
+.sidebar-open {
+  width: 260px;
+}
+
+.sidebar-compact {
+  width: 60px;
+}
+
+.sidebar-header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 12px;
+}
+
+.sidebar-title {
+  font-size: 16px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.sidebar-toggle {
+  width: 36px;
+  height: 36px;
+  border: none;
+  border-radius: 8px;
+  background: transparent;
+  color: #b4b4b4;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.sidebar-toggle:hover {
+  background: #2a2a2a;
+  color: #ffffff;
+}
+
+.levels-title {
+  padding: 20px 16px 8px;
+  color: #8e8e8e;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.level-list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 8px;
+}
+
+.level-button {
+  width: 100%;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 10px;
+  border: none;
+  border-radius: 8px;
+  background: transparent;
+  color: #b4b4b4;
+  cursor: pointer;
+  text-align: left;
+}
+
+.level-button:hover {
+  background: #2a2a2a;
+  color: #ffffff;
+}
+
+.level-button.selected {
+  background: #2f2f2f;
+  color: #ffffff;
+}
+
+.level-icon {
+  min-width: 24px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.level-name {
+  white-space: nowrap;
+  font-size: 14px;
+}
+
+.sidebar-compact .level-button {
+  justify-content: center;
+  padding: 8px;
+}

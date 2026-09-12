@@ -1,0 +1,64 @@
+{
+    "validation": [
+        {
+            "text": "hello",
+            "expected": "greeting"
+        },
+        {
+            "text": "hey there",
+            "expected": "greeting"
+        },
+        {
+            "text": "good morning",
+            "expected": "greeting"
+        },
+        {
+            "text": "can you tell me the weather",
+            "expected": "weather"
+        },
+        {
+            "text": "what is the weather like",
+            "expected": "weather"
+        },
+        {
+            "text": "is it going to rain",
+            "expected": "weather"
+        },
+        {
+            "text": "bye",
+            "expected": "goodbye"
+        },
+        {
+            "text": "talk to you later",
+            "expected": "goodbye"
+        },
+        {
+            "text": "thank you",
+            "expected": "thanks"
+        },
+        {
+            "text": "I really appreciate it",
+            "expected": "thanks"
+        },
+        {
+            "text": "my computer is broken",
+            "expected": "unknown"
+        },
+        {
+            "text": "my cat is sleeping",
+            "expected": "unknown"
+        },
+        {
+            "text": "I have an exam tomorrow",
+            "expected": "unknown"
+        },
+        {
+            "text": "what should I eat for dinner",
+            "expected": "unknown"
+        },
+        {
+            "text": "xyz abc qwerty",
+            "expected": "unknown"
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+.message {
+  width: 100%;
+  display: flex;
+  padding: 20px 0;
+}
+
+.message.user {
+  justify-content: flex-end;
+}
+
+.message.assistant {
+  justify-content: flex-start;
+}
+
+.message-content {
+  max-width: 760px;
+  line-height: 1.6;
+  font-size: 15px;
+}
+
+.message.user .message-content {
+  background: #2f2f2f;
+  padding: 10px 16px;
+  border-radius: 18px;
+}
+
+.message.assistant .message-content {
+  padding: 10px 0;
+}
