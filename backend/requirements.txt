@@ -1,0 +1,7 @@
+Flask
+Flask-Cors
+Werkzeug
+google-genai
+sentence-transformers
+pypdf
+python-docx

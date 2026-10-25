@@ -122,9 +122,6 @@ function Chat({ selectedLevel }) {
 
   return (
     <section className="chat">
-      <header className="chat-header">
-        <span>NLP Level {selectedLevel}</span>
-      </header>
 
       <div className="messages">
         {messages.length === 0 && (
@@ -177,10 +174,6 @@ function Chat({ selectedLevel }) {
             ↑
           </button>
         </div>
-
-        <p className="input-note">
-          NLP level: {selectedLevel}
-        </p>
       </div>
     </section>
   );
